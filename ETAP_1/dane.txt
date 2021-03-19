@@ -1,0 +1,59 @@
+﻿* nazwiska, imiona, adresy mailowe oraz numery grup członków zespołu,
+1. Beata Kozieł: beatainez.k@gmail.com, 1ID21A
+2. Bartłomiej Kotarski: bkotarski1@gmail.com, 1ID21A
+
+
+* temat projektu,
+Konwersja między formatami
+Celem projektu jest opracowanie narzędzia do automatycznej konwersji pomiędzy różnymi formatami XML, JSON, CSV i YAML.
+
+
+* spis technologii, które będą używane (systemów, języków programowania, najważniejszych bibliotek, frameworków, itp.)
+1. Backend: Java, Spring Framework
+2. Frontend: TypeScript, React.js, Styled Components, Nginx
+
+
+* realistyczny harmonogram pracy wraz z listą funkcjonalności, które zostaną zaimplementowane,
+1. 26.03.2021 - Przygotowanie środowisk uruchomieniowych, wstępna konfiguracja dla konteneryzacji, projekt UI i API.
+2. 09.03.2021 - Nawiązanie połączenia z pamięciową bazą danych Redis i wstępny projekt klucz: wartość
+3. 16.04.2021 - Utworzenie warstwy logicznej dla zapytań http (kontrolery)
+4. 23.04.2021 - Utworzenie warstwy logicznej dla wykonywanych konwersji (serwisy, helpery i modele)
+5. 30.04.2021 - Utworzenie interfejsu graficznego z React.js
+6. 07.05.2021 - Połączenie części statycznej z Rest API
+7. 14.05.2021 - Testy jednostkowe
+8. 28.05.2021 - Wdrożenie aplikacji (AWS bądź VPN)
+
+
+* podział prac w zespole,
+Beata:
+1. Konfiguracja środowiska dla API + Redis w kontenerze dockera
+2. Nawiązanie połączenia z Redis-em
+3. Utworzenie kontrolerów
+4. Wszystkie pary konwersji z CSV
+5. Wszystkie pary konwersji z JSON
+6. Wyświetlanie listy ostatnich działań + połączenie z API (UI)
+7. Testy
+8. Wdrożenie backendu
+
+
+Bartłomiej:
+1. Konfiguracja środowiska dla SPA + Nginx w kontenerze dockera
+2. Projekt i implementacja klucz - wartość dla Redis-a
+3. Serwisy pamięciowy
+4. Wszystkie pary konwersji z XML
+5. Wszystkie pary konwersji z YAML
+6. Utworzenie edytora, do wklejania edytowanych fragmentów + połączenie z API (UI)
+7. Testy
+8. Wdrożenie frontendu
+
+
+* temat projektu z przedmiotu "Programowanie systemów rozproszonych", tematy prac inżynierskich i (jeżeli są znane, to również) magisterskich studentów realizujących projekt.
+1. Programowanie systemów rozproszonych:
+   1. Beata: “Cloud drive”
+   2. Bartłomiej: “Cloud drive”
+2. Tematy prac inżynierskich:
+   1. Beata: “Opracowanie i implementacja platformy internetowej służącej do organizacji interakcji i spędzania wolnego czasu dla mieszkańców Kielc i okolic.”
+   2. Bartłomiej: “Projekt i implementacja aplikacji internetowej do prowadzenia spotkań online z wykorzystaniem modelu komunikacji peer-to-peer oraz technologii websocket”
+3. Tematy prac magisterskich:
+   1. Beata: nieznany
+   2. Bartłomiej: nieznany
